@@ -4,17 +4,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    static Conta[] ListaContas = new Conta[10];
+
     public static void main(String[] args) {
-
         System.out.println("Bem-vindo(a) ao Caixa EletrÔnico ADA\n");
-
-        int MaximoDeContas = 10;
-        Conta[] ListaContas;
-        ListaContas = new Conta[MaximoDeContas-1];
-
-        // Conta c = new Conta();
-        // ListaContas[0] = c;
-        // ListaContas[0].atribuirNumeroConta();
 
         Movimentos();
     }
